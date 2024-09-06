@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/angelika-braun/spa-react-review-task/",
+  "homepage": "https://angelika-braun.github.io/spa-react-review-task/",
   "name": "spa-react-review",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
